@@ -11,6 +11,9 @@ int main(){
      if(b>a ){
         printf("%d",b);
     }
+    if(a=b){
+        printf("%d",0)
+    }
     
 
     return 0;
