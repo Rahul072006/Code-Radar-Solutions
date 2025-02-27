@@ -6,10 +6,10 @@ int main(){
     scanf("%d", &a);
     scanf("%d", &b);
     if(a>b ){
-        printf("%d is greatest ",a);
+        printf("%d",a);
     }
      if(b>a ){
-        printf("%d is greatest ",b);
+        printf("%d",b);
     }
     
 
