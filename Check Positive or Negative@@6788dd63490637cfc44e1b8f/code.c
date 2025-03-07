@@ -11,5 +11,5 @@
     else{
         printf("Zero");
     }
-    retutn 0 ;
+    return 0 ;
  }
