@@ -10,15 +10,12 @@ int main() {
         if (ch >= 'A' && ch <= 'Z') {
             ch = ch + 32;
         }
-
-        // Check if the letter is a vowel (a, e, i, o, u)
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             printf("Vowel");
         } else {
-            printf("Constant");
+            printf("Consontant");
         }
     }
-    // If not a digit or a letter, it is a special character
     else {
         printf("Special Character");
     }
