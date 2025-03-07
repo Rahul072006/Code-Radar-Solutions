@@ -13,6 +13,7 @@ int main(){
         printf("Issoceles");
     }
     else(a!=b!=c){
-        printf("Scalene")
+        printf("Scalene");
     }
+    return 0;
 }
