@@ -12,7 +12,7 @@ int main(){
     else if(a=b!=c){
         printf("Issoceles");
     }
-    else(a!=b!=c){
+    else{
         printf("Scalene");
     }
     return 0;
