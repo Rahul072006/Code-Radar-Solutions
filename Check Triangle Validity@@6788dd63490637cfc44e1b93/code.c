@@ -10,6 +10,6 @@ int main(){
         printf("Valid");
     }
     else{
-        printf("Not valid");
+        printf("Invalid");
     }
 }
