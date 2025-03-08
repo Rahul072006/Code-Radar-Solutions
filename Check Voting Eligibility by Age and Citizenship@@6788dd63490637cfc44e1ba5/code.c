@@ -11,7 +11,7 @@ int main() {
             printf("Not Eligible");
         }
     } else {
-        printf("You are not eligible to vote as you are under 18.\n");
+        printf("Not Eligible");
     }
 
     return 0;
