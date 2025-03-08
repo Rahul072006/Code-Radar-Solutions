@@ -2,7 +2,6 @@
 
 int main() {
     int num, square;
-    printf("Enter a number: ");
     scanf("%d", &num);
     if (num >= 0 || num < 0) { // Always true, just demonstrating if-else usage
         square = num * num;
