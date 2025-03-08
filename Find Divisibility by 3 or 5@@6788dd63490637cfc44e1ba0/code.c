@@ -3,15 +3,15 @@ int main(){
     int n;
     scanf("%d",&n);
     if(n%5==0 && n%3==0){
-        printf("Diviisble by Both");
+        printf("Divisible by Both");
     }
     else if(n%3==0){
-        printf("Diviisble by 3");
+        printf("Divisible by 3");
     }
     else if(n%5==0){
-        printf("Diviisble by ");
+        printf("Divisible by 5");
     }
     else {
-        printf("Not Diviisble");
+        printf("Not Divisible");
     }
 }
