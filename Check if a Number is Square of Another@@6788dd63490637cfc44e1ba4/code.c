@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num, square;
-    scanf("%d", &num);
-    if (num >= 0 || num < 0) { 
-        square = num * num;
-        printf("Yes");
-    } else {
-        printf("No"); 
+    int a,b;
+    scanf("%d %d", &a , &b);
+    if(a == (b*b)){
+        printf("Yes\n");
     }
-
+    else{
+        printf("No\n");
+    }
     return 0;
 }
