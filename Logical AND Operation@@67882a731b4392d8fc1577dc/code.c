@@ -5,7 +5,10 @@ int main(){
     if(a>=1 && b>=1){
         printf("True\n");
     }
+    else if(a>=b){
+        printf("True\n");
+    }
     else{
-        printf("False\n");
+        printf("False");
     }
 }
