@@ -5,7 +5,7 @@ int main() {
     const float PI = 3.14159;
     scanf("%f", &radius);
     area = PI * radius * radius;
-    printf("Area of the circle: %.2f\n", area);
+    printf("Area: %.2f\n", area);
 
     return 0;
 }
