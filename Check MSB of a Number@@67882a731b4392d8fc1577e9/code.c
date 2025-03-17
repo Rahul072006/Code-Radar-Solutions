@@ -1,14 +1,16 @@
 #include <stdio.h>
+#include <math.h>
 
 void checkMSB(int num) {
-    if (num & (1 << 7))  
+    int bits = (int)log2(num) + 1;
+    if (num & (1 << (bits - 1)))
         printf("Set\n");
     else
-        printf("MSB is 0\n");
+        printf("Not Set\n");
 }
 
 int main() {
-    int num = 130; 
+    int num = 130;
     checkMSB(num);
     return 0;
 }
