@@ -2,7 +2,7 @@
 
 void checkMSB(int num) {
     if (num & (1 << 7))  
-        printf("MSB is 1\n");
+        printf("Set\n");
     else
         printf("MSB is 0\n");
 }
