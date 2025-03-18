@@ -1,35 +1,24 @@
 #include <stdio.h>
 
-// Function to print even and odd numbers separately
-void separateEvenOdd(int arr[], int n) {
-    printf("Even numbers: ");
-    for (int i = 0; i < n; i++) {
-        if (arr[i] % 2 == 0) {
-            printf("%d ", arr[i]);
-        }
-    }
-
-    printf("\nOdd numbers: ");
-    for (int i = 0; i < n; i++) {
-        if (arr[i] % 2 != 0) {
-            printf("%d ", arr[i]);
-        }
+void printEvenIndexed(int arr[], int n) {
+    for (int i = 1; i < n; i += 2) { // Start from index 1 and increment by 2
+        printf("%d ", arr[i]);
     }
     printf("\n");
 }
 
-// Main function
 int main() {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n;
+    scanf("%d", &n);
 
-    printf("Original array: ");
+    int arr[n];
+    printf("Enter %d elements: ", n);
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        scanf("%d", &arr[i]);
     }
-    printf("\n");
 
-    separateEvenOdd(arr, n);
+    printf("Output: ");
+    printEvenIndexed(arr, n);
 
     return 0;
 }
