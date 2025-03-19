@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d",&n);
+    int n, sum = 0;
+    scanf("%d", &n);
 
-    int sum = (n * (n + 1)) / 2; 
-    printf("%d\n", n, sum);
-    
+    for(int i = 1; i <= n; i++) {
+        sum += i;  // Add numbers from 1 to n
+    }
+
+    printf(" %d\n", n, sum);
+
     return 0;
 }
