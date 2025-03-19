@@ -1,14 +1,10 @@
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int sum =0;
-    int ld=0;
-    while(n!=0){
-        ld=n%10;
-        sum = sum + ld;
-        n=n/10;
-    }
-    printf("%d",sum);
+#include <stdio.h>
+
+int main() {
+    scanf("%d", &n);
+
+    int sum = (n * (n + 1)) / 2; 
+    printf("%d\n", n, sum);
+    
     return 0;
 }
