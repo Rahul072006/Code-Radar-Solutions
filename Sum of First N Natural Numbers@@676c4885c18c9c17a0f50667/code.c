@@ -5,10 +5,10 @@ int main() {
     scanf("%d", &n);
 
     for(int i = 1; i <= n; i++) {
-        sum += i;  // Adding numbers from 1 to n
+        sum += i;  
     }
 
-    printf("%d\n", n, sum);
+    printf("%d\n",sum);
 
     return 0;
 }
